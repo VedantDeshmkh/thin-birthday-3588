@@ -3,7 +3,7 @@ import VarticalStack from "./HomeBottom/VarticalStack"
 import Navbar from "./Navbar/Navbar"
 import SearchBar from "./Search/SearchBar"
 import Sliding from "./Sliding/Sliding"
-import SlidingVacation from "./Sliding/Sliding copy"
+import SlidingVacation from "./Sliding/Sliding one"
 
 
 export function Home(){
