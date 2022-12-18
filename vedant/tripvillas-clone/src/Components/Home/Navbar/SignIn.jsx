@@ -14,10 +14,11 @@ export default function SignIn(){
         <>
         <Navbar/>
         
-        <Box bg={"whatsapp.100"} w={'26rem'} p={"1rem"} border="1px solid blue" m="Auto" mt={"3rem"}>
-            <Box fontSize={"2xl"} p>Sign In Page</Box>
-        <Stack shouldWrapChildren direction='row'>
-            <NumberInput size='s' maxW={16} defaultValue={91} min={1}
+        <Box bg={"white"} w={'40rem'} p={"1rem"} border="2px solid grey" m="Auto" mt={"5rem"}>
+            <Box fontSize={"3xl"} p textAlign={"left"} marginBottom={"10px"}>Sign In Page</Box>
+            <hr />
+        <Stack shouldWrapChildren direction='row' marginTop={"40px"}>
+            <NumberInput size='s' maxW={20} defaultValue={91} min={1}
                 onChange={(valueString) => setValue(parse(valueString))}
                 value={format(value)}
                 max={375}>
@@ -27,7 +28,7 @@ export default function SignIn(){
                 <NumberDecrementStepper />
                 </NumberInputStepper>
                 </NumberInput>
-        <Input w={"15rem"} type='number' placeholder="Phone No"/>
+        <Input w={"30rem"} type='number' placeholder="Phone No"/>
         </Stack>
         <br/>
         <Stack shouldWrapChildren direction='row'><Text p={'0.5rem'}>Create Password:</Text><Input w={"15rem"} type='password' placeholder="Password"/></Stack>
