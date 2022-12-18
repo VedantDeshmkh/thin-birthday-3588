@@ -44,7 +44,6 @@ export default function Sliding(){
         
     ]
    
-    // Sliding
 
     var sliderMain=document.getElementById("Container");
     var item=document.getElementsByClassName("item");

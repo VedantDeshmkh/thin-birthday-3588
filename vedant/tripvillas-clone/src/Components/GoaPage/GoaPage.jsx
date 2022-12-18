@@ -76,7 +76,7 @@ export default function GoaPage(){
 function handleBook(){
     setTimeout(() => {
        alert('checking Details') 
-    }, 1000);
+    }, 3000);
     setTimeout(() => {
         alert('Taking Payment')
     }, 3000);
@@ -108,13 +108,17 @@ function handleBook(){
                         <option>9 Person</option>
                         <option>10 Person</option>
                         <option>11 Person</option>
+                        <option>12 Person</option>
+                        <option>13 Person</option>
+                        <option>14 Person</option>
+                        <option>15 Person</option>
                     </Select>
                     <Input bg={'blue'} color={'white'} cursor={'pointer'} type={'Submit'} value="Search" />
                 </HStack>
             </VStack>
         </Box>
         
-        <HStack margin={0} w={'90%'} m='auto' >
+        <HStack margin={0} w={'100%'} m='auto' >
             <Box w={'50%'}textAlign='left'>
                 <Accordion allowMultiple>
                     <AccordionItem>

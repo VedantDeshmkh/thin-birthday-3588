@@ -16,10 +16,11 @@ export default function SignUp(){
         <>
         <Navbar/>
         
-        <Box bg={"whatsapp.100"} w={'25rem'} p={"1rem"} border="1px solid blue" m="Auto" mt={"1rem"}>
-            <Box fontSize={"2xl"} p>Sign up Page</Box>
-        <Stack shouldWrapChildren direction='row'>
-            <NumberInput size='s' maxW={16} defaultValue={91} min={1}
+        <Box bg={"white"} w={'40rem'} p={"1rem"} border="2px solid grey" m="Auto" mt={"5rem"}>
+            <Box fontSize={"2xl"} marginBottom={"10px"} textAlign={"left"} p>Sign up Page</Box>
+            <hr />
+        <Stack shouldWrapChildren direction='row' marginTop={"40px"}>
+            <NumberInput size='s' maxW={20} defaultValue={91} min={1}
                 onChange={(valueString) => setValue(parse(valueString))}
                 value={format(value)}
                 max={375}>
@@ -29,7 +30,7 @@ export default function SignUp(){
                 <NumberDecrementStepper />
                 </NumberInputStepper>
                 </NumberInput>
-        <Input w={"15rem"} type='number' placeholder="Phone No"/>
+        <Input w={"30rem"} type='number' placeholder="Phone No"/>
         </Stack>
         <br/>
         <Stack shouldWrapChildren direction='row'><Text p={'0.5rem'}>Email Id:</Text><Input w={"15rem"} type='text' placeholder="Email Id"/></Stack>
