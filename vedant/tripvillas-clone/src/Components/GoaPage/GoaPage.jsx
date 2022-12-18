@@ -1,5 +1,5 @@
 
-import { Box, HStack, Input, Select, VStack,Accordion,AccordionButton,AccordionIcon,AccordionItem,AccordionPanel, Checkbox, Button, Image } from "@chakra-ui/react";
+import { Box, HStack, Input, VStack, Accordion, AccordionButton, AccordionIcon,AccordionItem,AccordionPanel, Checkbox, Button, Image } from "@chakra-ui/react";
 import Navbar from "../Home/Navbar/Navbar";
 import { EditIcon } from "@chakra-ui/icons";
 
@@ -94,27 +94,7 @@ function handleBook(){
                 <Box fontSize={'4xl'}>Goa Holiday Homes</Box>
                 <Box fontSize={'3xl'}>We have 300 Vacation Rentals - search by dates for availability</Box>
 
-                <HStack>
-                    <Input type="date" /><Input type={'date'}/>
-                    <Select placeholder="Select Guests">
-                        <option>1 Person</option>
-                        <option>2 Person</option>
-                        <option>3 Person</option>
-                        <option>4 Person</option>
-                        <option>5 Person</option>
-                        <option>6 Person</option>
-                        <option>7 Person</option>
-                        <option>8 Person</option>
-                        <option>9 Person</option>
-                        <option>10 Person</option>
-                        <option>11 Person</option>
-                        <option>12 Person</option>
-                        <option>13 Person</option>
-                        <option>14 Person</option>
-                        <option>15 Person</option>
-                    </Select>
-                    <Input bg={'blue'} color={'white'} cursor={'pointer'} type={'Submit'} value="Search" />
-                </HStack>
+
             </VStack>
         </Box>
         
